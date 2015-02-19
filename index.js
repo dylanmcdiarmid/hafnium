@@ -1,7 +1,7 @@
 var RenderLoop = require('./lib/render-loop')
-// Currently main just wraps instantiating RenderLoop
-var main = function(parentElement, initialState, renderFn) {
-  return new RenderLoop(parentElement, initialState, renderFn)
+// Currently main just wraps instantiating a RenderLoop
+var main = function(parentElement, initialState, renderFn, opt) {
+  return new RenderLoop(parentElement, initialState, renderFn, opt)
 }
 
 // Expose virtual dom index
