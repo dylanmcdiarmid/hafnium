@@ -1,6 +1,6 @@
 {
   "name": "hafnium",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A minimal framework on top of virtual-dom",
   "main": "index.js",
   "dependencies": {
